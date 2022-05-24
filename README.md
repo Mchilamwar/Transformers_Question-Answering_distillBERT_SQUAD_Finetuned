@@ -18,3 +18,13 @@ model = AutoModelForMaskedLM.from_pretrained("distilbert-base-uncased")
 or
 
 Download Files from [here](https://huggingface.co/distilbert-base-uncased/tree/main) 
+
+## To FineTune Model Run
+``` python
+Model_Tuned_SQUAD_QnA.ipynb
+```
+
+## Run Final Model
+```python
+Python Question_Answering.py
+```
